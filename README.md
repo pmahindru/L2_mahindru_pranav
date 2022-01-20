@@ -26,7 +26,7 @@ This Lab Assignment is based on the js, so make very simple HTML and CSS for thi
 
 If in completing your lab / assignment / project you used any interpretation of someone else's code, then provide a list of where the code was implement, how it was implemented, why it was implemented, and how it was modified. See the sections below for more details.
 
---> I didnt use any code and template for this Lab Assignement. So there is no references
+--> I didnt use any code and template for this Lab Assignment. So there is no references
 
 --> I also write my own js code as per the instruction was given in the lab
 
