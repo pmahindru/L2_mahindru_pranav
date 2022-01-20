@@ -31,3 +31,14 @@ If in completing your lab / assignment / project you used any interpretation of 
 --> I also write my own js code as per the instruction was given in the lab
 
 *Repeat as needed*
+
+<!-- this is answer for the two question were asked in the Lab Assignment -->
+
+
+All the below answers are taken from the Lab 2 document provide by prof and TAs.
+
+Q. What is the scope of a const variable?
+Ans. The scope of a 'const' variable is defined as a block scope. They can re-declared and Re-assigned.
+
+Q. When were the let and const keywords added to JavaScript?
+Ans. the let and const Keywords added to Javascript in 2015

@@ -32,3 +32,13 @@ function Division(input1, input2){
     return answer;
 }
 
+/* 
+All the below answers are taken from the Lab 2 document provide by prof and TAs.
+
+Q. What is the scope of a const variable?
+Ans. The scope of a 'const' variable is defined as a block scope. They can re-declared and Re-assigned.
+
+Q. When were the let and const keywords added to JavaScript?
+Ans. the let and const Keywords added to Javascript in 2015
+
+*/
