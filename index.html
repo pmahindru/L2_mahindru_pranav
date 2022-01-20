@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<title> Math </title>
+    <!-- style sheet -->
+    <style>
+        body{
+            background: linear-gradient(rgb(255, 178, 78),rgb(245, 245, 119));
+            background-repeat: no-repeat;
+            background-size: cover;
+        }
+        p{
+            display: inline;
+        }
+        #commanstyle{
+            text-align: center;
+        }
+        input{
+            width: 20%;
+        }
+        hr{
+            width: 85%;
+            height: 2px;
+            background-color: red;
+        }
+
+    </style>
+</head>
+<body>
+    <div id="commanstyle">
+        <!-- this is area of circle -->
+        <h2> Area of circle </h2>
+        <div> Area of a Circle with a Radius of 6  --> <p id="answerforarea_of_circle"> a </p> </div>
+        <br>
+        <br>
+        <label for="Areaofcircle">Area of circle: </label>
+        <input type="number" placeholder="put any number you want" id="Areaofcircle">
+        <br>
+        <br>
+        <div>
+            Answer
+            &nbsp;
+            --->
+            &nbsp;
+            <p id="answerforareaofircle"></p>
+            <br>
+            <br>
+        </div>
+        <button onclick="areaOfCircle(document.getElementById('Areaofcircle').value)"> Calculate Area of Circle </button>
+
+        <hr> 
+
+        <!-- add  -->
+        <h2> Addition </h2>
+        <label> Addition </label>
+        <input type="number" placeholder="put any number you want" id="Addition_number_1">
+        +
+        <input type="number" placeholder="put any number you want" id="Addition_number_2">
+        <br>
+        <br>
+        <div>
+            Answer
+            &nbsp;
+            --->
+            &nbsp;
+            <p id="answerofadd"></p>
+            <br>
+            <br>
+        </div>
+        <button onclick="Addition(document.getElementById('Addition_number_1').value, document.getElementById('Addition_number_2').value)"> Calculate Addition </button>
+
+        <hr> 
+
+        <!-- Subtraction -->
+        <h2> Subtraction </h2>
+        <label> Subtraction </label>
+        <input type="number" placeholder="put any number you want" id="Subtraction_number_1">
+        -
+        <input type="number" placeholder="put any number you want" id="Subtraction_number_2">
+        <br>
+        <br>
+        <div>
+            Answer
+            &nbsp;
+            --->
+            &nbsp;
+            <p id="answerofsubtraction"></p>
+            <br>
+            <br>
+        </div>
+        <button onclick="Subtraction(document.getElementById('Subtraction_number_1').value, document.getElementById('Subtraction_number_2').value)"> Calculate Subtraction </button>
+
+        <hr> 
+
+        <!-- Multiplication -->
+        <h2> Multiplication </h2>
+        <label> Multiplication </label>
+        <input type="number" placeholder="put any number you want" id="Multiplication_number_1">
+        *
+        <input type="number" placeholder="put any number you want" id="Multiplication_number_2">
+        <br>
+        <br>
+        <div>
+            Answer
+            &nbsp;
+            --->
+            &nbsp;
+            <p id="answerofmultiplication"></p>
+            <br>
+            <br>
+        </div>
+        <button onclick="Multiplication(document.getElementById('Multiplication_number_1').value, document.getElementById('Multiplication_number_2').value)"> Calculate Multiplication </button>
+
+        <hr> 
+
+        <!-- Division -->
+        <h2> Division </h2>
+        <label> Division </label>
+        <input type="number" placeholder="put any number you want" id="Division_number_1">
+        /
+        <input type="number" placeholder="put any number you want" id="Division_number_2">
+        <br>
+        <br>
+        <div>
+            Answer
+            &nbsp;
+            --->
+            &nbsp;
+            <p id="answerofdivision"></p>
+            <br>
+            <br>
+        </div>
+        <button onclick="Division(document.getElementById('Division_number_1').value, document.getElementById('Division_number_2').value)"> Calculate Division </button>
+
+        <hr> 
+
+        <!-- Area of Rectangle -->
+        <h2> Area of Rectangle </h2>
+        <div> Area of a Rectangle with a Length of 20, and Width of 15  --> <p id="answerforarea_of_rectangle"></p> </div>
+        <br>
+        <h2> Area of Rectangle </h2>
+        <label> Area of Rectangle </label>
+        <input type="number" placeholder="Width" id="width">
+        *
+        <input type="number" placeholder="Length" id="length">
+        <br>
+        <br>
+        <div>
+            Answer
+            &nbsp;
+            --->
+            &nbsp;
+            <p id="answerofrectangle"></p>
+            <br>
+            <br>
+        </div>
+        <button onclick="Rectangle(document.getElementById('width').value, document.getElementById('length').value)"> Calculate Area of Rectangle </button>
+    </div>
+
+    <script src="circle.js"></script>
+    <script src="arithmetic_functions.js"></script>
+    <script src="rectangle.js"></script>
+</body>
+</html>
