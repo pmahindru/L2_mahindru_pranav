@@ -20,6 +20,6 @@ Q. What is the scope of a const variable?
 Ans. The scope of a 'const' variable is defined as a block scope. They can re-declared and Re-assigned.
 
 Q. When were the let and const keywords added to JavaScript?
-Ans. the let and const Keywords added to Javascript in 2015
+Ans. the let and const Keywords added to Javascript in 2015 (ES6)
 
 */
