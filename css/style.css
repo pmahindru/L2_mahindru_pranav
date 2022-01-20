@@ -1,0 +1,19 @@
+body{
+    background: linear-gradient(rgb(255, 178, 78),rgb(245, 245, 119));
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+p{
+    display: inline;
+}
+#commanstyle{
+    text-align: center;
+}
+input{
+    width: 20%;
+}
+hr{
+    width: 85%;
+    height: 2px;
+    background-color: red;
+}

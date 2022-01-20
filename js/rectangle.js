@@ -1,6 +1,6 @@
 // all code is written by me, i didn't take any reference.
 
-// this is hardcode value of radius
+// this is hardcode value of width and length
 const area_of_rectangle =  20 * 15; 
 document.getElementById("answerforarea_of_rectangle").innerText = area_of_rectangle;
 console.log("Area of a Rectangle with a Length of 20, and Width of 15 --> " + area_of_rectangle);
