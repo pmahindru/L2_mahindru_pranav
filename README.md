@@ -10,7 +10,7 @@ This is README file is taken from the brightspace, this is given by Gabriella Mo
 This is an individual Lab Assignment 2 that was done by me and I didn't take any references and code for this Lab Assignment. I made a calculation HTML page with some CSS style but i put in ones and make it simple for me and markers to check, i also make 3 js file with respect the questions requirement. 
 
 * *Date Created*: 19 01 2022
-* *Last Modification Date*: 20 01 2022
+* *Last Modification Date*: 25 01 2022
 * *Lab URL*: <https://web.cs.dal.ca/~mahindru/csci3172/lab2/>
 * *Git URL*: <https://git.cs.dal.ca/mahindru/L2_mahindru_pranav/>
 
